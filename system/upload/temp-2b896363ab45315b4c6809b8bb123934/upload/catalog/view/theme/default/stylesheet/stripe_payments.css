@@ -1,0 +1,160 @@
+/*
+ * Stripe Payments Extension CSS
+ */
+
+#payment-form{
+	position : relative;
+}
+#header{
+	text-align: center;
+	color: rgb(32, 149, 193);
+}
+.credit-cards {
+    margin: 0 auto;
+    position: relative;
+    width: 332px;
+    height: 26px;
+}
+.credit-cards:before, .credit-cards:after {
+    background-image: url(../image/stripe-cc-logos.png);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    left: 0;
+    top: 0;
+    content: "";
+    position: absolute;
+}
+.credit-cards:before {
+    z-index: 1;
+    opacity: 0.3;
+}
+.credit-cards:after {
+    z-index: 2;
+    opacity: 1;
+    background-clip: content-box;
+    padding: 0;
+    width: 0;
+}
+.credit-cards.visa:after {
+    width: 60px;
+}
+.credit-cards.mastercard:after {
+    width: 48px;
+    left: 60px;
+    background-position : -60px;
+}
+.credit-cards.americanexpress:after {
+    width: 46px;
+    left: 108px;
+    background-position : -108px;
+}
+.credit-cards.jcb:after {
+    width: 46px;
+    left: 154px;
+    background-position : -154px;
+}
+.credit-cards.discover:after {
+    width: 46px;
+    left: 202px;
+    background-position : -202px;
+}
+.credit-cards.dinersclub:after {
+    width: 84px;
+    left: 248px;
+    background-position : -248px;
+}
+#container{
+	display:none;
+}
+@media( min-width : 769px ){
+	#container.visible{
+		position : absolute;
+		display : block;
+	}
+}
+#container div{
+	position : absolute;
+}
+#container, #card, #face, #back{
+	width : 300px;
+	height : 190px;
+	font-size : 20px;
+}
+#container{
+	perspective: 1000px;
+	top:50px;
+	right:10px;
+}
+#card{
+	transition: transform linear 1s;
+	transform-style: preserve-3d;
+}
+#face, #back{
+	backface-visibility: hidden;
+	background-color: rgb(79, 166, 199);
+	border-radius: 5%;
+	border: solid 1px black;
+}
+#back{
+	transform: rotateY(180deg) translateZ(1px);
+}
+#code, #expire, #cvv{
+	text-align: center;
+	border: none;
+	font-family: monospace;
+	font-weight: bold;
+	border: none;
+	padding: 1px;
+}
+#code{
+	text-align: left;
+}
+#container #code{
+	height: 10%;
+	width: 80%;
+	top: 58%;
+	left: 10%;
+	font-size: 100%;
+}
+#expire{
+	width: 14%;
+	height: 8%;
+	top: 77%;
+	left: 42%;
+	font-size: 66%;
+}
+#stripe{
+	width: 100%;
+	height: 22%;
+	background-color: black;
+	top: 7%;
+}
+#cvv{
+	width: 11%;
+	height: 10%;
+	top: 40%;
+	left: 86%;
+	font-size : 66%;
+}
+#card.code{
+	transform : rotateY(0deg);
+}
+#card.code #code{
+	background-color : rgb(203, 214, 237);
+}
+#card.expire{
+	transform : rotateY(0deg);
+}
+#card.expire #expire{
+	background-color : rgb(203, 214, 237);
+}
+#card.cvv{
+	transform : rotateY(180deg);
+}
+#card.cvv #cvv{
+	background-color : rgb(203, 214, 237);
+}
+.urgent-2x{
+	font-size : 2em!important;
+}

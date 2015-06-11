@@ -1,0 +1,267 @@
+body {
+	text-align: right;
+}
+.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: right;
+}
+.header-toplinks .links {
+    text-align: left;
+}
+p.welcome-msg ,.header-currency{
+    float: left;
+}
+.language-currency{
+    float:right;
+}
+.header-language{ float: left;}
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+    float: right;
+}
+.drop-lang .sub-lang li a, .header-toplinks .links .dropdown-menu li {
+    text-align: right;
+}
+.drop-currency .sub-currency li button {
+    text-align: right;
+}
+.header-cart-mini {
+    float: left;
+}
+.nav_megamenu div.megamenu {
+    float: right;
+}
+.nav_megamenu #megamenu_extra {
+    float: left;
+}
+.nav_megamenu div.column {
+    float: right;
+}
+.nav_megamenu div.megamenu div.dropdown {
+    text-align: right;
+}
+.nav_megamenu .itemMenu a.level2:before, .nav_megamenu .itemMenu a.level3:before, .nav_megamenu .itemMenu a.level4:before {
+    float: right;
+    height: 6px;
+    margin: 13px 0 0 10px;
+    width: 6px;
+}
+.nav_megamenu .itemMenu h4.level1 > span, .nav_megamenu .itemMenu a.level1 > span {
+    padding: 0 0 5px 30px;
+}
+.bx-controls-direction .bx-wrapper .bx-next {
+    left: 0;
+}
+.bx-wrapper .bx-prev {
+    right: 0;
+}
+.ratings .rating-box {
+    float: right;
+    margin-right: 0px;
+}
+.bx-wrapper .bx-controls-direction a.bx-prev:after { 
+    content: "\f101";
+    color: #5d5d5d;
+    display: inline-block;
+    font: 16px/1 FontAwesome;
+    text-rendering: auto;
+     margin-left: 7px;
+}
+.bx-wrapper .bx-controls-direction a.bx-next:before { 
+    content: "\f100"; 
+    color: #5d5d5d;
+    display: inline-block;
+    font: 16px/1 FontAwesome;
+    text-rendering: auto;
+     margin-right: 7px;
+     float:left;
+     margin-top: 5px;
+}
+.bx-wrapper .bx-controls-direction a.bx-prev:before { content: ""; }
+.bx-wrapper .bx-controls-direction a.bx-next:after { content: ""; }
+.newproductslider .regular-price .price, .newproductslider .special-price .price {
+    float: right;
+    margin-left: 15px;
+}
+button.button {
+    float: right;
+}
+.row .bx-wrapper .bx-viewport .slide-multirows ul{
+    float: right;
+}
+.bestsellerslider .bx-controls-direction a.bx-next {
+    right: -117px;
+}
+.bestsellerslider .bx-controls-direction a.bx-prev {
+    right: -279px;
+}
+#tabs-title li {
+    float: right;
+}
+.main {
+    text-align: right;
+}
+.footer address {
+    text-align: right;
+}
+.social {
+    float: left;
+    text-align: left;
+}
+.footer-links .footer-static-content ul li a:before {
+    float: right;
+    margin: 13px 0px 1px 10px;
+}
+.addthis_toolbox a.at300b, .addthis_toolbox a.at300m {
+    float: right;
+}
+.product-view .add-to-links {
+    float: right;
+    margin-right: 20px;
+}
+.product-view .add-to-cart .input-content {
+    float: right;
+    margin-right: 0;
+}
+.product-tabs li {
+    float: right;
+    margin-right: 0;
+}
+.upsellslider .bx-title h2 {
+    text-align: right;
+}
+.brandlogo-contain {
+    text-align: right;
+}
+.more-views .bx-wrapper .bx-prev {
+    right: -100px !important;
+}
+.more-views:hover .bx-wrapper .bx-prev {
+   right: 0 !important;
+}
+.more-views .bx-wrapper .bx-next {
+    left: -100px !important;
+}
+.more-views:hover .bx-wrapper .bx-next {
+    left: 0 !important;
+}
+.radio input[type="radio"], .radio-inline input[type="radio"], .checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"] {
+    float: right;
+    margin-left: 20px;
+    margin-right: 0;
+}
+.form-control {
+    text-align: right;
+}
+.form-horizontal .control-label {
+    float: right;
+    text-align: right;
+}
+.pull-left {
+    float: right !important;
+}
+
+.bx-wrapper .bx-next {
+    left:0 !important;
+    right: auto;
+}
+caption, th, td {
+    text-align: right;
+}
+.table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td {
+    float: right;
+    width: 50%;
+}
+div.required .control-label:before {
+    float: right;
+}
+.form-horizontal .control-label, .form-horizontal .radio, .form-horizontal .checkbox, .form-horizontal .radio-inline, .form-horizontal .checkbox-inline {
+    padding-top: 0px;
+    margin-left: 13px !important;
+}
+input[type="radio"], input[type="checkbox"] {
+    margin: 0px 0 0;
+}
+.cart-table th, .cart-table td, .cart-table tbody td {
+
+}
+.text-left {
+    text-align: right;
+}
+.nav_vmegamenu div.megamenu .level-top a, .nav_vmegamenu div.megamenu .level-top span.block-title {
+    padding: 0 30px 0 0;
+}
+.nav_vmegamenu div.megamenu div.dropdown {
+    right: 100% !important; 
+    left:auto !important; 
+    text-align: right;
+    opacity: 0;
+}
+.breadcrumbs li span {
+    float: left;
+}
+.breadcrumbs li {
+    float: right;
+    text-align: right;
+    
+}
+.nav_vmegamenu .itemMenu a.level2:before, .nav_vmegamenu .itemMenu a.level3:before, .nav_vmegamenu .itemMenu a.level4:before {
+    float: right;
+    margin-left: 10px;
+    transform: rotate(180deg);
+}
+.nav_vmegamenu .itemMenu h4.level1 > span, .nav_vmegamenu .itemMenu a.level1 > span {
+    padding: 0 0 5px 30px;
+}
+.sorter {
+    float: right;
+}
+.pager {
+    float: left;
+}
+.pager .pages {
+    float: right;
+}
+.toolbar-bottom .toolbar .pager .amount {
+    float: left;
+}
+.pager .pages li {
+    float: right;
+}
+.block-layered-nav dd li {
+    text-align: right;
+}
+.add-to-links {
+    margin-right: 5px;
+    float: right;
+}
+.tweet-time a:before, .footer-static-content p:before {
+    float: right;
+    margin-left: 10px;
+    margin-right: 0;
+}
+.panel-body .buttons .pull-right, .buttons-set .pull-right {
+    float: right !important;
+}
+.menu-mobile {
+    float: right;
+}
+.navbar .btn-navbar {
+    float: left;
+}
+#content .buttons-set .pull-right {
+    float: left !important;
+}
+.col2-right-layout .main {
+    text-align: left;
+}
+.zoomContainer{
+    right: 834.5px !important;
+    left: auto !important;
+}
+
+
+@media(max-width:992px){
+    .right-bestseller { width: 100%; }
+    .bestsellerslider .bx-controls-direction a.bx-next {left: 0; right: auto;}
+    .bestsellerslider .bx-controls-direction a.bx-prev { right: 0;}
+    
+}
